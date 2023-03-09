@@ -1,0 +1,8 @@
+services:
+  python:
+    image: youtubeimagen:latest
+    volumes:
+      - ./app:/usr/src/app
+    stdin_open: true
+    tty: true
+    command: ['python', 'latest.py']
